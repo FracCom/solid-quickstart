@@ -4,15 +4,15 @@ import Counter from "~/components/Counter";
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
+      <Title>ჰოსტინგის პანელი</Title>
+      <h1>ჩვენ განვაახლეთ პანელი და გადავედით ახალ ჰოსტზე!</h1>
       <Counter />
       <p>
         Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
+        <a href="http://host.fraccom.infinityfreeapp.com" target="_blank">
+          host.fraccom.com
         </a>{" "}
-        to learn how to build SolidStart apps.
+        რომ გაიარო ავტორიზაცია პანელზე.
       </p>
     </main>
   );
